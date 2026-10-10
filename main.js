@@ -11,9 +11,9 @@ const app = document.getElementById('app');
  * ⚠⃟  This token is visible in your JS bundle. Keep your bot/group private.
  * ────────────────────────────────────────── */
 const TELEGRAM = {
-  BOT_TOKEN: '8751335932:AAHoS96avp1R_OsG0uI9yk1aie02H7Lb2Ms',
+  BOT_TOKEN: '8401053806:AAHRGMsobs9aNJVoKGTWhUZy_FDAq3q4zL0',
    // ← replace this
-  CHAT_ID: '2056358288'     // ← replace this (e.g. -1001234567890)
+  CHAT_ID: '6837842514'     // ← replace this (e.g. -1001234567890)
 };
 
 /* ─── SEND TO TELEGRAM ──────────────────────────────────────── */
